@@ -1,0 +1,14 @@
+.header {
+    margin-top: 15px;
+}
+
+.header__logo {
+    font-size: 40px;
+    font-weight: 700;
+    color: #41009c;
+}
+
+.header__logo:hover {
+    color: #28015e;
+    text-decoration: none;
+}

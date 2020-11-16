@@ -1,0 +1,32 @@
+.movie {
+    width: 200px;
+    height: 320px;
+    margin: 30px 28px 50px 0;
+}
+
+.movie__image-container{
+    width: 200px;
+    height: 300px;
+    position: relative;
+}
+
+.movie__image-container__img {
+    width: 100%;
+    height: 100%;
+}
+
+.movie__image-container__rating {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+.movie__title {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
